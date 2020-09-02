@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./css/main.css" type="text/css" />
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!--   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="row flex">
+        <div class="nav__logo">
+          <img src="./images/logo.svg" alt="Insure" class="nav__logo--img" />
+        </div>
+        <!-----------------------
+                    burger Menu
+                  -------------------------->
+        <div class="nav__icon">
+          <img src="./images/icon-hamburger.svg" class="nav__icon--burger open" alt="Burger menu" />
+          <img src="./images/icon-close.svg" alt="" class="nav__icon--close close">
+        </div>
+
+
+        <ul class="nav__menu">
+
+          <li>
+            <a href="#" class="nav__menu--links">how we work</a>
+          </li>
+          <li><a href="#" class="nav__menu--links">blog</a></li>
+          <li><a href="#" class="nav__menu--links">account</a></li>
+          <li><a href="#" class="nav__menu--links cta cta--top">view plans</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="header__img">
+      <img src="./images/image-intro-mobile.jpg" alt="" class="header__img--fam mobile" />
+
+    </section>
+
+    <!--------------
+        Header text
+      ---------------->
+    <section class="header__text">
+      <div class="row flexit">
+        <!---pattern--->
+        <img src="./images/bg-pattern-intro-left-mobile.svg" alt=""
+          class="pattern pattern__mobile pattern__mobile--left" />
+        <img src="./images/bg-pattern-intro-left-desktop.svg" alt=""
+          class=" pattern pattern__desktop pattern__desktop--left" />
+        <div class="text--intro">
+          <h1 class="heading-primary">
+            Humanizing <span>your insurance.</span>
+          </h1>
+          <p class="header__text--paragraph">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <a href="#" class="header__text--links cta"> View plans</a>
+        </div>
+        <div class="img--intro">
+          <img src="./images/image-intro-desktop.jpg" alt="" class="img--fam" />
+        </div>
+      </div>
+
+      <img src="./images/bg-pattern-intro-right-mobile.svg" alt=""
+        class="pattern pattern__mobile pattern__mobile--right" />
+      <img src="./images/bg-pattern-intro-right-desktop.svg" alt=""
+        class="  pattern pattern__desktop pattern__desktop--right" />
+    </section>
+  </header>
+
+  <!-------------------------
+    /* MAIN */
+  --------------------------->
+  <main>
+    <div class="row">
+      <h2 class="heading-secondary">We're different</h2>
+    </div>
+    <section class="feature">
+      <div class="row feature-layout">
+        <div class="feature-box">
+          <img src="./images/icon-snappy-process.svg" alt="" class="feature-box__icon" />
+          <h3 class="heading-tertiary feature-box__heading">Snappy process</h3>
+          <p class="feature-box__text">
+            Our application process can be completed in minutes, not hours.
+            Don’t get stuck filling in tedious forms.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <img src="./images/icon-affordable-prices.svg" alt="" class="feature-box__icon" />
+          <h3 class="heading-tertiary feature-box__heading">
+            Affordable prices
+          </h3>
+          <p class="feature-box__text">
+            We don’t want you worrying about high monthly
+            costs. Our prices may be low, but we still offer the best coverage
+            possible.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <img src="./images/icon-people-first.svg" alt="" class="feature-box__icon" />
+          <h3 class="heading-tertiary feature-box__heading">People first</h3>
+          <p class="feature-box__text">
+            Our plans aren’t full of conditions and clauses to
+            prevent payouts. We make sure you’re covered when you need it.
+          </p>
+        </div>
+      </div>
+      <!----------------------------
+        /*Blue box */
+      ------------------------------>
+      <div class="row">
+
+        <div class="box">
+          <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="" class="pattern pattern__mobile--box">
+          <h2 class="box__heading">
+            Find out more about how we work
+          </h2>
+          <a href="#" class="box__btn cta"> How we work</a>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <section class="footer__top flex-footer row">
+
+      <img src="./images/logo.svg" alt="" class="footer__top--logo" />
+      <div class="footer__top--social">
+        <img src="./images/icon-facebook.svg" alt="visit us on facebook" class="footer__top--icon" />
+        <img src="./images/icon-twitter.svg" alt="follow us on twitter" class="footer__top--icon" />
+        <img src="./images/icon-pinterest.svg" alt="Pin our content" class="footer__top--icon" />
+        <img src="./images/icon-instagram.svg" alt="Check out our instagram" class="footer__top--icon" />
+      </div>
+
+    </section>
+
+    <!----------------------->
+    <section class="footer__bottom row">
+      <!--one-->
+      <div class="footer-blocks">
+        <h4 class="footer-blocks--heading">Our company</h4>
+        <ul>
+          <li><a href="#" class="footer-blocks--links">how we work</a></li>
+          <li><a href="#" class="footer-blocks--links">why insure?</a></li>
+          <li><a href="#" class="footer-blocks--links">check price</a></li>
+          <li><a href="#" class="footer-blocks--links">reviews</a></li>
+        </ul>
+      </div>
+      <!--two-->
+      <div class="footer-blocks">
+        <h4 class="footer-blocks--heading">Help me</h4>
+        <ul>
+          <li><a href="#" class="footer-blocks--links">faq</a></li>
+          <li><a href="#" class="footer-blocks--links">terms of use</a></li>
+          <li><a href="#" class="footer-blocks--links">privacy policy</a></li>
+          <li><a href="#" class="footer-blocks--links">cookies</a></li>
+        </ul>
+      </div>
+      <!--three-->
+      <div class="footer-blocks">
+        <h4 class="footer-blocks--heading">Contact</h4>
+        <ul>
+          <li><a href="#" class="footer-blocks--links">sales</a></li>
+
+          <li><a href="#" class="footer-blocks--links">support</a></li>
+          <li><a href="#" class="footer-blocks--links">live chat</a></li>
+        </ul>
+      </div>
+      <!--four-->
+      <div class="footer-blocks">
+        <h4 class="footer-blocks--heading">others</h4>
+        <ul>
+          <li><a href="#" class="footer-blocks--links">careers</a></li>
+          <li><a href="#" class="footer-blocks--links">press</a></li>
+          <li><a href="#" class="footer-blocks--links">licenses</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Attribution-->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded with &#10084; by
+      <a href="https://instagram.com/officiallyseb" target="_blank">Seb</a>.
+    </div>
+  </footer>
+
+  <script src="./menu.js"></script>
+</body>
+
+</html>
